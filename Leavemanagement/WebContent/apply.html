@@ -148,8 +148,15 @@
 			<div class="w3l-date">
 					<label class="head">Start Date <span class="w3l-star"> * </span></label>
 						<div class="styled-input">
+						
 							<input class="date" id="datepicker" name="Text" type="text" value="MM/DD/YYYY" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'MM/DD/YYYY';}" required="">
-						</div><br>
+						</div>
+						<form action="/action_page.php">
+  
+  <input type="date" name="startdate">
+  <input type="submit">
+</form>
+						<br>
 					</div>
 			<div class="w3l-date">
 					<label class="head">End Date<span class="w3l-star"> * </span></label>
